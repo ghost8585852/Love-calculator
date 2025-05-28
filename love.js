@@ -26,15 +26,21 @@ toggle();
      
    
     const message= name1+" your love score with "+name2+" is "+randomnumber+"%";
+    const message2= " 😍 WOW you guy's were a perfect match.❤️";
+    const message3="😓 Your relationship need more work";
+    const message4=" 👌 your relationship looks good"
     
     document.querySelector(".score").innerHTML=randomnumber+"%";
     if(randomnumber===100){
-        document.querySelector(".main-message").innerHTML=message;
+        document.querySelector(".main-message").innerHTML=message+ " "+message2;
 
-    }else if(randomnumber>40){
-        document.querySelector(".main-message").innerHTML=message;
+    }else if(randomnumber>30){
+        document.querySelector(".main-message").innerHTML=message+" "+message4;
+    }else if(randomnumber<20){
+        document.querySelector(".main-message").innerHTML=message+ " "+message3;
+
     }
     else{
-         document.querySelector(".main-message").innerHTML=message;
+        document.querySelector(".main-message").innerHTML=message+ " "+message3;
     }
 }
