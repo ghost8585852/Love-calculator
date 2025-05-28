@@ -1,0 +1,81 @@
+body{
+    margin: 3rem;
+    background-color: rgb(53, 53, 54);
+
+}
+h1{
+     font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 7rem;
+    color: rgb(227, 17, 157);
+    margin: 0;
+    
+
+}
+.main-container{
+    text-align: center;
+
+    /* background-color: red; */
+    height: auto;
+}
+.content-container{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 17px;
+    gap: 7rem;
+    align-items: center;
+    margin-top: 3rem;
+    /* background-color: aquamarine; */
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    /* background-color: red; */
+    width: 50%;
+}
+#n1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#n2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input{
+    width:20rem;
+    height: 3rem;
+    border-radius: 20px;
+    font-size: 20px;
+}
+label{
+    font-size:30px;
+    font-weight: bold;
+}
+
+Button{
+    background-color:  rgb(211, 90, 171);
+    font-family:  "Kaushan Script", cursive ;
+    height: 50px;
+    width: 10rem;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.score{
+    font-size: 3rem;
+    color: rgb(221, 9, 9);
+
+}
+.main-message{
+    font-size: 2rem;
+     font-family: "Kaushan Script", cursive;
+     color: rgb(227, 17, 157);
+}

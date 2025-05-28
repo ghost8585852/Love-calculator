@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love calculator</title>
+    <link rel="stylesheet" href="love.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Love calculator</h1>
+        <div class="content-container">
+         <div class="container3">
+            <div id="n1">
+                <label for="p2">Yourname</label>
+                <input type="text" name="partner1" class="input" placeholder="   enter your name" id="name1" >
+            </div>
+            <!-- <p>❤️</p> -->
+            <div id="n2">
+                <label for="p2">His/Her Name</label>
+                <input type="text" name="partner2" class="input" placeholder="   enter his/her name" id="name2">
+            </div>
+         </div>
+            
+            
+            <button type="submit"  class="btn1" onclick="calculate()" disabled>Calculate</button>
+        </div>
+        <h2 class="score"></h2>
+        <p class="main-message"></p>
+    </div>
+    
+</body>
+<script src="love.js" charset="UTF-8"></script>
+</html>
